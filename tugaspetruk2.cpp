@@ -10,3 +10,7 @@ void Lingkaran (int *ptrnilai) {
 
 	cout<<"Masukkan jari-jari = ";
 	cin>>*ptrnilai;
+	
+	cout << "Luas Lingkaran = " << *Pphi * *ptrnilai * *ptrnilai <<endl ;
+	cout << "Keliling Lingkaran = " << 2 * *Pphi * *ptrnilai ;
+	}
