@@ -14,3 +14,11 @@ void Lingkaran (int *ptrnilai) {
 	cout << "Luas Lingkaran = " << *Pphi * *ptrnilai * *ptrnilai <<endl ;
 	cout << "Keliling Lingkaran = " << 2 * *Pphi * *ptrnilai ;
 	}
+int main () {
+	int i;
+int nilai[i];
+	int *ptrnilai;
+ptrnilai = nilai;
+Lingkaran (ptrnilai) ;
+return 0;
+}
